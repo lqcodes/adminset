@@ -41,6 +41,8 @@ token = 'HPcWR7l4NJNJ'        #token是上传到服务器的密钥可以在WEB�
 server_ip = '192.168.47.130'  #此项目为adminset server的IP地址
 ```
 
+**安全提示**：上述 token HPcWR7l4NJNJ 为示例默认值，生产环境必须修改（可在 WEB 界面的系统配置中自定义），并同步更新客户端配置。
+
 step2: 拷贝install/client/ 目录到客户机的任意位置并执行:
 ```
 cd client
@@ -58,14 +60,15 @@ service adminsetd start|stop|restart|status
     http://your_server_ip
     自动安装的用户名admin 密码Adminset123
     手动安装使用自定义创建的super admin用户名密码
+    安全提示：admin/Adminset123 为示例默认密码，生产环境必须立即修改。
 
 ## 说明
-使用手册，<a href="http://115.28.147.154/static/docs/">使用手册</a><br>
+使用手册，<a href="index.html">使用手册</a><br>
 FAQ参考，<a href="https://github.com/guohongze/adminset/wiki/FAQ">常见问题</a>
 
 ## demo
     每2小时重置一次数据
-    http://115.28.147.154
+    http://adminset.cn
     用户名admin 密码Adminset123
 
 ## 安全
