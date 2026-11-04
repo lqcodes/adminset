@@ -40,6 +40,8 @@ step1: 修改文件install/client/adminset_agent.py :
 token = 'HPcWR7l4NJNJ'        #token是上传到服务器的密钥可以在WEB界面的系统配置中自定义
 server_ip = '192.168.47.130'  #此项目为adminset server的IP地址
 ```
+> 安全提示：以上 token 为示例默认值，生产环境必须修改。
+
 
 step2: 拷贝install/client/ 目录到客户机的任意位置并执行:
 ```
@@ -57,16 +59,18 @@ service adminsetd start|stop|restart|status
     关闭防火墙或开通80端口
     http://your_server_ip
     自动安装的用户名admin 密码Adminset123
+    安全提示：以上默认密码为示例默认值，生产环境必须修改。
     手动安装使用自定义创建的super admin用户名密码
 
 ## 说明
-使用手册，<a href="http://115.28.147.154/static/docs/">使用手册</a><br>
+使用手册，<a href="index.html">使用手册</a><br>
 FAQ参考，<a href="https://github.com/guohongze/adminset/wiki/FAQ">常见问题</a>
 
 ## demo
     每2小时重置一次数据
-    http://115.28.147.154
+    https://github.com/lqcodes/adminset
     用户名admin 密码Adminset123
+    安全提示：以上默认密码为示例默认值，生产环境必须修改。
 
 ## 安全
     强烈建议您不要将程序对公网开放

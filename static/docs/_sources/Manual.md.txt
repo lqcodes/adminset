@@ -17,6 +17,7 @@
         关闭防火墙
         访问：http://your_server_ip
         使用用户名admin 密码Adminset123
+        安全提示：以上默认密码为示例默认值，生产环境必须修改。
 
     1.3、执行安装脚本-手动(不建议，如果使用自动安装则跳过此步骤)
         1.3.1 adminset/install/server/server_install.sh
@@ -43,6 +44,7 @@
         客户端正常使用需要修改脚本中的两个字段：
         token = 'HPcWR7l4NJNJ'        #token是上传到服务器的密钥可以在WEB界面的系统配置中自定义<br>
         server_ip = '192.168.47.130'  #此项目为adminset server的IP地址，支持域名<br>
+        安全提示：以上 token 为示例默认值，生产环境必须修改。
 
     step2: 执行安装
         拷贝install/client/ 目录到客户机的任意位置并执行:
